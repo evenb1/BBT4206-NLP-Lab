@@ -148,14 +148,26 @@ st.markdown("""
     .topic-box {
         background-color: #e8f4f8;
         border-left-color: #0066cc;
+        color: #000000;
     }
     .sentiment-box {
         background-color: #f0f8e8;
         border-left-color: #00cc00;
+        color: #000000;
     }
     .error-box {
         background-color: #ffe8e8;
         border-left-color: #cc0000;
+        color: #000000;
+    }
+    .result-box h3 {
+        color: #000000;
+    }
+    .result-box h4 {
+        color: #000000;
+    }
+    .result-box p {
+        color: #000000;
     }
     </style>
 """, unsafe_allow_html=True)
